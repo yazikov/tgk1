@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SensorListComponent } from './sensor-list/sensor-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SensorListComponent
   ],
   imports: [
     BrowserModule
